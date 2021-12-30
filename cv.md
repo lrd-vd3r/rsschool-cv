@@ -18,7 +18,8 @@ I'm 29 years old. Originaly I'm from Saratov, but moved to Saint-Petesburg. In m
 * Figma
 
 ### Code example
-```function multiply(a, b){
+```
+function multiply(a, b){
   a * b
 }
 ```
