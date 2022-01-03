@@ -1,3 +1,79 @@
 * {
-    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  display: block;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+
+}
+
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1440px;
+  min-height: 50px;
+
+}
+
+.nav ul{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+li {
+  position: relative;
+  padding: 0 12px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 50px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.profile {
+  display: block;
+  align-items: center;
+  width: 100%;
+  
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.profile-picture {
+width: 480px;
+border-radius: 15px;
+}
+
+.certificate {
+  width: 25%;
+}
+
+.footer-logo {
+width: 25%;
+height: 72px;
 }
